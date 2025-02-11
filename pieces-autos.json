@@ -14,6 +14,7 @@
         "prix": 40,
         "categorie": "Freinage",
         "description": "Une qualité de freinage optimale, par tous les temps !",
+        "image": "images/plaquettes-frein.png",
         "disponible": true
     },
     {
@@ -22,6 +23,7 @@
         "prix": 5.49,
         "categorie": "Optiques",
         "description": "Pour y voir clair dans l’habitacle.",
+        "image": "images/ampoule-boite-a-gants.png",
         "disponible": false
     },
     {
@@ -29,6 +31,7 @@
         "nom": "Liquide de frein",
         "prix": 9.60,
         "categorie": "Freinage",
+        "image": "images/liquide-frein.png",
         "disponible": true
     },
     {
@@ -36,6 +39,7 @@
         "nom": "Balai d'essuie-glace",
         "prix": 29.10,
         "description": "Performances d’essuyage au top ! Longueur : 550 mm.",
+        "image": "images/balai-essuie-glace.png",
         "disponible": true
     }
 ]
