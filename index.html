@@ -21,22 +21,36 @@
 			<br>
 			<button class="btn-trier-dcs">Trier par prix décroissant</button>
 			<br>
-			<button class="btn-filtrer">Filtrer les pièces abordables</button>
+			<button class="btn-filtrer">Filtrer les pièces non abordables</button>
 			<br>
 			<button class="btn-filtrer-description">Produits avec description</button>
-		</section>
+			<br>
+			<p>Prix maximum :</p>
+			<input type="range" id="prix-max" name="prix-max" min="0" max="60" step="5">
+			<h3>Ajouter un avis</h3>
+			<form class="formulaire-avis">
+				Identifiant de la pièce :<br>
+				<input type="number" name="piece-id"><br>
+				Nom d'utilisateur :<br>
+				<input type="text" name="utilisateur"><br>
+				Avis :<br>
+				<input type="text" name="commentaire"><br>
+				Note <br>
+				<input type="number" name="nbEtoiles" min="0" max="5"><br>
+				<button>Envoyer</button>
+			</form>
+			<h3>Données</h3>
+			<button class="ntn-maj">Mettre à jour les pièces</button>
 		</section>
 
 		<!-- Fiches produits -->
 		<section class="fiches">
 			<!-- Code ajouté -->
 			<div class="abordables">
-				<p>Pièces abordables :</p>
 			</div>
 			<div class="disponibles">
-				<p>Pièces disponibles :</p>
 			</div>
-
+		</section>
 	</main>
 </body>
 
